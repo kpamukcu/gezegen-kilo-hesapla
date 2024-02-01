@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <title>Document</title>
+    </head>
+    <body style="background-image: url(https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif);">
+        <section id="giris">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center pt-5">
+                        <h1 class="text-white">Diğer Gezegelerde Kaç Kilosun?</h1>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-9 mx-auto">
+                        <form id="form" method="get" class="form-row">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <input type="text" id="kilo" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <select class="form-control" id="gezegen">
+                                        <option value>Seçiniz</option>
+                                        <option value="ay">Ay</option>
+                                        <option value="jupiter">Jüpiter</option>
+                                        <option value="mars">Mars</option>
+                                        <option value="merkur">Merkür</option>
+                                        <option value="neptun">Neptün</option>
+                                        <option value="pluton">Pluton</option>
+                                        <option value="saturn">Satürn</option>
+                                        <option value="uranus">Uranüs</option>
+                                        <option value="venus">Venüs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 text-right">
+                                <div class="form-group">
+                                    <input type="submit" value="hesapla" id="hesapla" class="btn btn-warning w-100">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sonuc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 mx-auto">
+                        <div class="row p-5" id="row">
+                            <div class="col-md-6">
+                                <img src id="foto" class="w-50">
+                            </div>
+                            <div class="col-md-6 my-auto text-white" id="info"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

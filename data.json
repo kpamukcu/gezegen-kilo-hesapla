@@ -1,0 +1,11 @@
+{
+    "ay":[1.62,"img/ay.png"],
+    "mars":[3.71,"img/mars.png"],
+    "merkur":[3.7,"img/merkur.png"],
+    "venus":[8.87,"img/venus.png"],
+    "jupiter":[24.79,"img/jupiter.png"],
+    "saturn":[10.44,"img/saturn.png"],
+    "uranus":[8.87,"img/uranus.png"],
+    "neptun":[11.15,"img/neptun.png"],
+    "pluton":[0.62,"img/pluton.png"]
+}
